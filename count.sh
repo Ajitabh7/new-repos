@@ -1,6 +1,5 @@
-#!/bin/bash
-
+#!/bin/sh
 for i in range(10)
 do
-  echo "$i"
+  echo " $i "
 done
