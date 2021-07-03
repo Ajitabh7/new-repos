@@ -14,5 +14,6 @@ END { mb = sum / 1024
 EOF
 
 df -k | awk -f $tempfile
+df -h
 
 exit 0
