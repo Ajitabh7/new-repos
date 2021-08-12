@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                  echo This > app.sh
+                  echo This > Merge pull request
                   echo That >> app.sh
                 '''
             }
