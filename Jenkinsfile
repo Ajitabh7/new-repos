@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                   echo This > Merge pull request
-                  echo That >> app.sh
+                  echo That >> what's up
                 '''
             }
         }
